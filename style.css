@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 50px;
+    padding:5px;
+}
+span{
+    color: orange;
+}
+#header_section{
+    /* background-image: url(image/Frame\ 58.jpg); */
+    height: 100vh;
+    
+
+}
+.header_brif{
+    width: 40%;
+    float: left;
+    padding-left: 14%;
+    margin-top: 135px;
+    /* position: relative;    optional */
+    
+}
+.header_brif p{
+    margin-top: 25px;
+    line-height: 26px;
+    font-size: 18px;
+}
+.header_image{
+    width: 40%;
+    float: right;
+    padding-right: 10%;
+    position: absolute;    
+    right: 100px;
+
+}
+.header_image img{
+    width: 100%;
+}
+button.btn {
+    border: none;
+    padding: 17px 30px;
+    margin-top: 25px;
+    color: white;
+    background-color: orange;
+    border-radius: 38px;
+}
+/* -------------------------end header section------------------ */
+/* About Section */
+#about_section{
+    background-image: url(image/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:81vh;
+    position: relative;
+    
+}
+.about_image{
+    width: 40%;
+    float: left;
+    margin-top: 150px;
+}
+.about_image img{
+    width: 50%;
+    margin-left: 120px;
+}
+
+.about_text {
+    position: absolute;
+    text-align: center;
+    padding-right: 15%;
+    margin-left: 454px;
+    margin-top: 178px;
+  }
+  .about_text p {
+      line-height: 30px;
+    font-size: 17px;
+ 
+  }
+
+
+
+/* ------------------------ End About Section --------------------- */
+
+
+/* recipie */
+
+
+
+.recipie_info h2 {
+    margin-top: 45px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.recipie_info p {
+    text-align: center;
+
+}
+.recipie_box_item1{
+    width:40%;
+    float: left;
+    padding-left: 8%;
+    box-shadow: 5px 7px 35px gray;
+    
+}
+.recipie_box_item2{
+    width:40%;
+    float: right;
+    padding-right: 8%;
+    box-shadow: 5px 7px 35px gray;
+    
+}
+.recipie_box_image img{
+    height: 245px;
+    width: 422px;
+}
+.recipie_box_info h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.recipie_box_info p{
+    font-size: 15px;
+    line-height: 22px;
+    width: 410px;
+    
+}
+.recipie_box_image {
+    margin-left: 60px;
+}
+.recipie_box_info p {
+    font-size: 15px;
+    line-height: 22px;
+    width: 410px;
+
+    margin-left: 76px;
+}
+.recipie_box {
+    margin-top: 80px;
+}
+#recipie_section{
+    height: 100vh;
+}
